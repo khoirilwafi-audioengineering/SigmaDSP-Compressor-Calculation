@@ -1,2 +1,2 @@
 # SigmaDSP-Compressor-Calculation
-menghitung parameter compressor
+menghitung parameter compressor untuk aplikasi SigmaDSP menggunakan mikrokontroller.
