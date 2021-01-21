@@ -3,12 +3,14 @@
 
 using namespace std;
 
+// buat tabel gain 
 float tabel_gain[33] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
 
 void hitung_tabel(float treshold, int ratio)
 {
-	int gain_point = -90;
 	float sinyal_out, penurunan_sinyal, gain_linier;
+	// deklarasi nilai gain paling bawah
+	int gain_point = -90;
 	// ulangi dari -90 dB sampai +6 dB
 	for(int step=0; step<33; step++)
 	{	
